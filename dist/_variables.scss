@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: black;
+}
+
+// for the glass
+$wht90: rgba(255,255,255,0.9);
+$wht80: rgba(255,255,255,0.8);
+$wht70: rgba(255,255,255,0.7);
+$wht60: rgba(255,255,255,0.6);
+$wht50: rgba(255,255,255,0.5);
+$wht40: rgba(255,255,255,0.4);
+$wht30: rgba(255,255,255,0.3);
+$wht20: rgba(255,255,255,0.2);
+$wht10: rgba(255,255,255,0.1);

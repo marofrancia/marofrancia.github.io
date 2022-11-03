@@ -1,0 +1,49 @@
+main{
+    margin-top: 5rem;
+}
+
+main>h1{
+    color: white;
+    text-align: center;
+    margin-bottom: -7rem;
+    font-size: 5vw;
+    z-index: -1000;
+    position: absolute;
+    width: 100vw;
+    margin-top: .6rem;
+}
+
+.background {
+    position: relative;
+}
+.bg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 20vw;
+}
+
+.bg-container > img {
+    width: 30vw;
+    min-width: 250px;
+    max-width: 700px;
+    margin: -9% -5% 0;
+}
+
+.bg-container > img:hover {
+    transform: scale(1.05);
+    transition: all 1s;
+}
+
+.elyang {
+    z-index: 1;
+}
+.grace {
+    z-index: 1;
+}
+
+.apo {
+    z-index: 10;
+}
