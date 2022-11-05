@@ -1,0 +1,33 @@
+.carouselContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin: 5rem 0 0;
+}
+
+.carousel-item {
+    width: 5vw;
+    height: 5vw;
+}
+
+.articleContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;;
+    padding: 5rem 0 2rem;
+}
+
+.articleTattoo {
+    text-align: justify;
+    max-width: 1080px;
+    color: maroon;
+    &>h1 {
+        text-align: center;
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+    &>p {
+        margin: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+}

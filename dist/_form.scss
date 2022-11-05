@@ -1,0 +1,70 @@
+.bookContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+
+    background: url(https://images.pexels.com/photos/235648/pexels-photo-235648.jpeg);
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.glass {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    background: linear-gradient($wht10, $wht50);
+    border: 1px solid $wht50;
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(5px)
+}
+
+.glass>h1{
+    background: $wht20;
+    padding: .25em;
+    border-radius: 20px;
+}
+
+label {
+    background: $wht50;
+    padding: .25em;
+    color: black;
+    border-radius: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.bookForm {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mb-3 {
+    min-width: 45%;
+    max-width: 45%;
+    margin: 2%;
+}
+
+.inputMessage {
+    min-width: 94%;
+    max-width: 94%;
+    margin: 0;
+}
+
+button {
+    min-width: 94%;
+}

@@ -1,0 +1,33 @@
+.designContainer {
+    background: maroon;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &>h1{
+        margin: 2rem 0;
+        color: white;
+    }
+}
+
+.cardContainer {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    width: 15vw;
+    min-width: 200px;
+    margin: 1rem;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}

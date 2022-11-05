@@ -1,27 +1,29 @@
-.navbar{
-    background: black;
-    color: $wht90;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-link {
     position: fixed;
-    width: 100%;
     top: 0;
-}
-.nav-items{
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-.nav-link{
-    text-decoration: none;
-    list-style: none;
-    padding: 2rem;
-    font-size: 1.25rem;
-    font-weight: 600;
+    background: none;
+    z-index: 1000;
+    background: maroon;
 }
 
-.nav-link:hover{
-    background: white;
-    color: black;
+.nav-list {
+    list-style: none;
+    padding: 2rem .25rem;
+    &:hover{
+        background: white;
+        .menu-item{
+            color: maroon;
+        }
+    }
+}
+
+.menu-item {
+    padding: 2rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
 }
