@@ -11,6 +11,9 @@
     }
 }
 
+.designText {
+    padding: 3rem 0 0;
+}
 .cardContainer {
     width: 100%;
     max-width: 1080px;
@@ -30,4 +33,20 @@
 .card-title {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.view {
+    background: white;
+    padding: .75em;
+    border: none;
+    border-radius: 20px;
+    margin: 2rem 0;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    &:hover{
+        transform: scale(1.02);
+        transition: all .5s;
+    }
 }

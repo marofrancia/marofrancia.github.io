@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: maroon;
+    color: white;
+}
+.column {
+    min-width: 300px;
+    &>img{
+        margin-bottom: 1rem;
+    }
+}

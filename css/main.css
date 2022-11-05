@@ -40,7 +40,7 @@
   background-repeat: none;
   background-position: top;
   background-size: cover;
-  padding: 6vh 0 0;
+  padding: 8vh 0 0;
 }
 
 .brandHeader {
@@ -50,6 +50,12 @@
 .title {
   font-size: 2rem;
   padding: 2rem 0;
+}
+.title > h3 {
+  font-weight: 800;
+}
+.title > h1 {
+  font-weight: 800;
 }
 
 .brandImageContainer {
@@ -165,6 +171,10 @@
   color: white;
 }
 
+.designText {
+  padding: 3rem 0 0;
+}
+
 .cardContainer {
   width: 100%;
   max-width: 1080px;
@@ -184,6 +194,22 @@
 .card-title {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.view {
+  background: white;
+  padding: 0.75em;
+  border: none;
+  border-radius: 20px;
+  margin: 2rem 0;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+.view:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
 }
 
 .bookContainer {
@@ -253,6 +279,23 @@ form {
   margin: 0;
 }
 
-button {
+.btn {
   min-width: 94%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: maroon;
+  color: white;
+}
+
+.column {
+  min-width: 300px;
+}
+.column > img {
+  margin-bottom: 1rem;
 }
